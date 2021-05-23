@@ -14,3 +14,40 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.item_list {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 1rem;
+  width: 240px;
+  height: 480px;
+}
+
+.item .card_text {
+  font-size: 0.8rem;
+}
+
+.main_page_header {
+  width: 100%;
+  height: 72px;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  margin-left: 2rem;
+  position: absolute;
+  top: 12px;
+}
